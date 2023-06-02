@@ -1,0 +1,143 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 мая 2023 г., 20:51:18
+    Author     : Administrator
+*/
+
+body, html {
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(113,55,55);
+    background: linear-gradient(90deg, rgba(113,55,55,1) 0%, rgba(242,59,59,1) 51%, rgba(252,176,69,1) 100%);
+
+    background-size: cover;
+}
+h2 {
+           margin-top: 80px;
+
+    color: window;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: window;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #FF0000;
+}
+
+.round {
+    width:200px;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 140vh;
+}
+
+.input-form label {
+    font-size: 20px;
+}
+.input-form-second label {
+       margin-top: 200px;
+    font-size: 20px;
+}
+
+.input-form .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.input-form input[type="text"] {
+    padding: 20px;
+    font-size: 10px;
+    border: 3px solid red;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: border-color 0.3s ease;
+    width: 800px;
+}
+.input-form-second input[type="text"] {
+ 
+    padding: 20px;
+    font-size: 10px;
+    border: 3px solid red;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: border-color 0.3s ease;
+    width: 800px;
+background-color:#f78e31
+}
+
+form {
+    display: table;
+    margin: 1% auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: window;
+    text-align: left;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container input[type="text"],
+.input-container input[type="submit"] {
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin: 1.5% auto;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: red;
+    color: #000;
+    border-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
